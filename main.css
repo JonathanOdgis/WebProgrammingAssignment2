@@ -1,0 +1,129 @@
+body
+{
+    background-color: white;
+    background-size: 100% 50%;
+}
+
+#header .container-fluid
+{
+    background-color: #45c6fc;      
+    
+}
+
+.navbar-header
+{
+    width: 20%;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+
+p
+{
+    text-indent: 50px;
+}
+
+blockquote
+{
+    border-width: 0px;
+}
+
+#navbaritems .nav
+{
+    padding-bottom: 2%;
+    padding-right: 50px; 
+}
+
+.carousel-inner 
+{
+    width: 100%;
+    height: 350px;
+
+}
+
+.carousel-inner img
+{
+    width: 100%;
+    height: 150px;
+}
+
+#frontPageInfo
+{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+#frontPageInfo h1
+{
+    font-size: 26px;
+}
+
+#frontPageInfo p
+{
+    font-size: 16px;
+}
+
+#subArticles
+{
+    background-color: white;    
+}
+
+#leftContent
+{
+
+}
+
+.col-sm-5
+{
+    padding-bottom: 10%;
+}
+
+
+
+.col-sm-5 p
+{
+    font-size: 26px;
+}
+
+#seltzersim
+{
+    background-color: white;    
+}
+
+#freeSeltzer img
+{
+    width: 150px;
+    height: 150px;
+    padding: 5%;
+}
+
+#twitterBox
+{
+
+}
+
+#seltzerRanksTable
+{
+    background-color: white;
+}
+
+.comment
+{
+    padding-left: 5%;
+}
+
+.footer .Jumbotron
+{
+    background-color: #45c6fc;
+    padding-left: 50%;
+}
+
+.footer h1
+{
+    font-size: 20px;
+}
+
+.footer .Jumbotron img
+{
+    padding-left: 10
+}
+

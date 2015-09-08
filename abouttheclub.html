@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Test Website - New Paltz Seltzer Club? </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <div id = "header">
+            <nav class="navbar navbar-fixed navbar-default">
+              <div class="container-fluid">
+                <div id = "navbaritems">
+                  <ul class = "nav navbar-nav">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="index.html"> New Paltz Seltzer Club </a>
+                    </div>          
+                    <li><a href="seltzerranks.html">Seltzer Ranks</a></li>
+                    <li><a href="seltzertracker.html"> Seltzer Tracker </a></li>
+                    <li class="active"><a href="abouttheclub.html">About the Club</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+            <div class = "container">
+                <div class="jumbotron" id = "aboutUsSection">
+                    <h2> What is the Seltzer Club? </h2>
+                    <hr>
+                    <h3> Origins and Mission </h3>
+                    <p> SUNY New Paltz is a diverse campus with many student activities taking place on a regular basis. Students are constantly using the dining hall facilities to get their fuel so they can work hard and play harder. </p> 
+                    <p> However, it has come to my attention that a majority of the students are drinking unhealthy bevarages from the new soda machines on campus. This makes me very sad and it just shows how people just don't like to drink water anymore. </p> 
+                    <p> After years of research, I have come to a reasonable solution to this unhealthy bevarage-consuming epidemic. What if students partook in a fresh, cold, spicy cup of seltzer which provides the fizz of soda and the nutrition of water? </p> 
+                    <p> I strive to encourage this seltzer lifestyle and hope that more people are interested in joining the movement for a seltzer-rich campus. </p> 
+                    <p> Like the bubbles within a nice cup of seltzer, I hope to see all of you rise to the top and join the seltzer lifestlye! </p>
+                    <hr>
+
+                    <h2> How to Join? </h2>
+                    <p> Fill in the form below and join the club that will change the way you view seltzer. </p>
+                    <hr>
+                    <form role="form">
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd"> How did you hear about us? </label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-default" id = "submitbutton">Submit</button>
+                </div>
+        </div>
+
+<button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+  Loading state
+</button>
+
+<script>
+  $('#myButton').on('click', function () {
+    var $btn = $(this).button('loading')
+    $btn.button('reset')
+  })
+</script>
+
+
+        <div class = "footer">
+          <div class = "Jumbotron">
+            <p> Copyright 2015.  </p>
+             <a href = "https://twitter.com/ClubSeltzer"><img src = "http://www.iid.com/Home/ShowImage?id=299&t=635648001335730000" style = "width: 30px"></a>             
+             <a href = "#"><img src = "https://www.hrc.co.nz/index.php/download_file/view_inline/893/" style = "width: 30px"></a>
+             <a href = "#"><img src = "http://a4.mzstatic.com/us/r30/Purple69/v4/14/79/45/147945c1-8234-f71b-2018-9c22475473f2/icon320x320.jpeg" style = "width: 30px"></a>
+          </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>        
+    </body>    
+</html>
